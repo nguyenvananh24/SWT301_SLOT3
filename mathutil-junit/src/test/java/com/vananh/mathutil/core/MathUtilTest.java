@@ -1,6 +1,5 @@
 package com.vananh.mathutil.core;
 
-import com.vananh.mathutil.core.MathUtil;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -29,7 +28,7 @@ public class MathUtilTest {
         );
 
         assertEquals(
-                "Invalid argument. n must be between 0 and 20.",
+                "Invalid argument. n must be between 0 and 20",
                 exception.getMessage()
         );
     }
